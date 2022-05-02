@@ -551,3 +551,36 @@ It is just convention but we can change the value.
 
 
 
+Q. What is the difference between for loop and while loop in Python?
+
+We can use loops to repeat code execution
+
+Repeat code for every item in sequence ==>for loop
+
+Repeat code as long as condition is true ==>while loop
+
+
+Q. How to exit from the loop?
+
+by using break statement
+
+
+Q. How to skip some iterations inside loop?
+
+by using continue statement.
+
+
+Q. When else part will be executed wrt loops?
+
+If loop executed without break
+
+pass is a keyword in Python.
+
+In our programming syntactically if block is required which won't do anything then we can
+define that empty block with pass keyword.
+
+pass
+
+|- It is an empty statement
+|- It is null statement
+|- It won't do anything
