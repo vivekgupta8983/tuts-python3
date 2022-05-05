@@ -1,0 +1,3 @@
+S_NO,IAM_User_Name,Programatic_Access,Console_Access,PolicyARN
+2.pqr,Yes,Yes,arn:aws:iam::aws:policy/AdministratorAccess
+3.abc,No,Yes,arn:aws:iam::aws:policy/AmazonAPIGatewayInvokeFullAccess

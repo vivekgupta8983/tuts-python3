@@ -3,8 +3,8 @@
 import datetime
 import sys
 import boto3
-age = 30
-aws_profile_name = 'prod'
+age = 1
+aws_profile_name = 'default'
 
 
 def days_old(date):
@@ -26,7 +26,8 @@ for ami in amis['Snapshots']:
     if day_old > age:
         try:
 
-            print("deleting --> " + snapshot_id + " as image is " + str(day_old) + " old.")
+            print("deleting --> " + snapshot_id +
+                  " as image is " + str(day_old) + " old.")
             # delete the snapshot
             ec2.delete_snapshot(SnapshotId=snapshot_id)
         except:

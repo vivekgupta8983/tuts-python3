@@ -22,8 +22,8 @@ The Core concepts of boto3 are:
         Client is a low-level service access. In client output is on terms of Dictionary.
     
     Meta
-    Collections
-    Waiters
+    Collections: It is useful to collect group of resource 
+    Waiters: 
     Paginators
 
 
